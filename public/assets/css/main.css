@@ -1,0 +1,20 @@
+
+html, body, table, tr {;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body {
+	font-family: "Source Sans Pro", Helvetica, sans-serif !important;
+	width: 90%;
+	margin: 2em auto 2em auto;
+}
+
+hr {
+	border: 0;
+	border-bottom: solid 2px #e0e0e0;
+	margin: 3em auto 3em -4%;
+	width: 108%;
+}
