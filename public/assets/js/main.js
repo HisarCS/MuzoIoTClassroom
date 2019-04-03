@@ -49,7 +49,7 @@ var temp_chart = new CanvasJS.Chart("temp-graph", {
 // Create reference
 var data_ref = firebase.database().ref().child('hisarcs').child('data');
 
-data_ref1.on("child_added", (snap, prev)=>{
+data_ref.on("child_added", (snap, prev)=>{
 	var new_data = snap.val();
 	date = new Date(new_data.ts)
 	pressure_data.dataPoints.push({'y': parseInt(new_data.pres), 'x': date})
